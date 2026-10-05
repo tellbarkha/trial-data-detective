@@ -2,16 +2,14 @@
 
 [![CI](https://github.com/YOUR_USERNAME/trial-data-detective/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/trial-data-detective/actions)
 
-Catch hospitals that fake their data in a clinical trial, using statistics alone.
-
-Big clinical trials collect data from many hospitals ("sites"). Occasionally a site invents
+Big clinical trials collect data from many hospitals (sites). Occasionally a site invents
 patient data instead of collecting it. Invented numbers leave fingerprints, and regulators
 (FDA, EMA, ICH E6) encourage sponsors to look for them with *central statistical monitoring*.
 This project is a small, readable implementation of that idea in Python:
 
-1. **Simulate** a realistic 20-site blood-pressure trial in which a few sites cheat.
-2. **Detect** the cheaters without looking at the answer key.
-3. **Explain** each flag with a chart.
+1. Simulate a realistic 20-site blood-pressure trial in which a few sites cheat.
+2. Detect the cheaters without looking at the answer key.
+3. Explain each flag with a chart.
 
 ![Heatmap of suspicious sites](docs/images/heatmap.png)
 
